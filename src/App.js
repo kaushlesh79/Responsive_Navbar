@@ -22,7 +22,9 @@ export default function App() {
         {!isMobile && (
           <nav className="navBar">
             {tabs.map((tab) => (
-              <div key={tab}>{tab}</div>
+              <div key={tab} className="navBarElement">
+                {tab}
+              </div>
             ))}
           </nav>
         )}
