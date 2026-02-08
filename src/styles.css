@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.hamburgerIcon {
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  display: grid;
+  grid-auto-rows: 1fr;
+  gap: 0px;
+  border: 1px solid black;
+  width: 100px;
+  height: 110px;
+  margin: 0 auto;
+}
+.dropdownCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
